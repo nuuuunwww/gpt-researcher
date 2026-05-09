@@ -22,6 +22,7 @@ from . import (
     FireCrawl,
     NoDriverScraper,
     PyMuPDFScraper,
+    ScraplingMCPScraper,
     TavilyExtract,
     WebBaseLoaderScraper,
 )
@@ -194,6 +195,7 @@ class Scraper:
             "nodriver": NoDriverScraper,
             "tavily_extract": TavilyExtract,
             "firecrawl": FireCrawl,
+            "scrapling_mcp": ScraplingMCPScraper,
         }
 
         scraper_key = None
